@@ -1,1 +1,1 @@
-ExUnit.start(exclude: [integration_tests: true])
+ExUnit.start(exclude: [integration_tests: true, not_migrated: true])
